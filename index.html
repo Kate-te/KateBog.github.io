@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>JuliaDates</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</script>
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<header class="header">
+		<nav class="nav">
+		    <div class="container">                
+		        <ul class="nav-list flex">
+		            <li class="menu"><a><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+		            <li>
+		                <ul class="main-nav flex">
+		                    <li class="logo"><a href="#" name="top" class="logo-img nav-list_link"><img src="./img/logo.png" alt="logo"></a></li>                    
+		                    <li><a class="nav-list_link" href="#">Поиск</a></li>
+		                    <li><a class="nav-list_link" href="#">Мои переписки</a></li>
+		                    <li><a class="nav-list_link" href="#">Избранное</a></li>
+		                    <li><a class="nav-list_link" href="#">Кто смотрел</a></li>
+		                </ul>
+		            </li>
+		            <li>
+		                <ul class="side-nav flex">
+		                    <li><a class="nav-list_link" href="#">Премиум<i class="fa fa-info-circle" aria-hidden="true"></i>
+		                    </a></li>
+		                    <li><a class="credits" href="#">100 кредитов</a></li>
+		                    <li><a class="nav-list_link flex" href="#"> <img class="profile-pict" src="./img/profile-pict.png" alt="profile pict"><i class="fa fa-angle-down bold" aria-hidden="true"></i></a></li>
+		                </ul>
+		            </li>
+		        </ul>
+		    </div>
+		</nav>
+	</header>
+	<main class="main">		
+		<div class="top-girls">
+		    <div class="container">
+		        <ul class="top-girls_list flex">
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		            <li class="top-girls_list_item"><a href="#"></a></li>
+		        </ul>
+		    </div>
+		</div>
+		<div class="search">
+		    <div class="container">
+		        <h2 class="search__title">Я ищу</h2>
+		        <form action="" class="search__form flex">
+		            <div class="search__form-main flex">
+		                <div class="select">
+		                    <input type="radio" name="action" value="" checked=""><label>Девушку</label>
+		                    <div>
+		                        <input type="radio" name="action" value="edit"><label>Парня</label>
+		                    </div>
+		                </div>
+		                <div>
+		                    <div class="cities flex"></div>
+		                    <input type="text" id="city-picker" placeholder="Выберите город">
+		                </div>
+		                <div class="age flex">
+		                    <label for="#slider">Возраст</label>
+		                    <div id="slider"></div>   
+		                </div>     
+		                <a href="#" class="search-btn uppercase btn">Найти</a>
+		            </div>
+		            <div class="search__form-more">
+		                <div class="show-more flex">
+		                    <hr>
+		                    <a class="show-more_text">Расширеный поиск<i class="fa fa-angle-down bold" aria-hidden="true"></i></a>
+		                    <hr>
+		                </div>
+		            </div>
+		        </form>
+		    </div>
+		</div>
+		<section class="results">
+			<div class="filter flex">
+			    <div class="container flex">
+			        <ul class="filter-list flex">
+			            <li><a class="filter-list_item bold" href="#">Онлайн</a></li>
+			            <li><a class="filter-list_item active bold" href="#">Новые</a></li>
+			            <li><a  class="filter-list_item bold" href="#">Популярные</a></li>
+			        </ul>
+			    </div>
+			</div>
+			<div class="girl-cards">
+			    <div class="container flex">  
+			        <div class="card card1">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>12</a></div>
+			                <div class="top uppercase">топ</div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name online">Кристиночка, 28</div>
+			                <div class="live">Санкт-Петербург, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card2">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>3</a></div>
+			                <div class="top uppercase">топ</div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name online">Диана, 20</div>
+			                <div class="live">Самара, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card3">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>145</a></div>
+			                <div class="top uppercase">топ</div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name online">Аня, 18</div>
+			                <div class="live">Ростов-на-Дону, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card4">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>17</a></div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name">Анжелика, 27</div>
+			                <div class="live">Чебоксары, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card5">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>12</a></div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name online">Лариса, 32</div>
+			                <div class="live">Москва, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card6">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>3</a></div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name">Настя, 21</div>
+			                <div class="live">Зеленоград, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card7">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>4</a></div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name">Евгения, 30</div>
+			                <div class="live">Ростов-на-Дону, Россия</div>
+			            </div>
+			        </div>
+			        <div class="card card8">
+			            <div class="card_marks flex">
+			                <div class="cam"><a href="#"><i class="fa fa-camera" aria-hidden="true"></i>28</a></div>
+			            </div>
+			            <div class="card_nav flex">
+			                <div class="star"><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i>Избранное</a></div>
+			                <div class="msg"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Написать</a></div>
+			            </div>
+			            <div class="card_info">
+			                <div class="name">Ольга, 25</div>
+			                <div class="live">Казань, Россия</div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<div class="paginator">
+			    <div class="container flex">
+			        <ul class="pages-list flex">
+			            <li class="page-slider"><i class="fa fa-chevron-left" aria-hidden="true"></i></li>
+			            <li class="page active-page">1</li>
+			            <li class="page">2</li>
+			            <li class="page">3</li>
+			            <li class="page">4</li>
+			            <li class="page">5</li>
+			            <li class="page">6</li>
+			            <li class="page-slider"><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+			        </ul>
+			    </div>
+			</div>
+		</section>	
+	</main>
+	<footer class="footer">
+	    <div class="container">
+	        <ul class="footer-list flex">
+	            <li class="footer-link bold"><a href="#">Правила</a></li>
+	            <li class="footer-link bold"><a href="#">Пользовательское соглашение</a></li>
+	            <li class="footer-link bold"><a href="#">О проекте</a></li>
+	            <li class="footer-link bold"><a href="#">Обратная связь</a></li>
+	        </ul>        
+	        <p class="footer-info">
+	            ©«KIKI». Лучший on-line сервис по поиску спонсоров и содержанок, 2015-2017
+	        </p>
+	        <p class="footer-info">
+	            Администрация не несёт ответственности за размещённые анкеты. Вся информация на сайте предоставлена посетителями.
+	        </p>
+	        <a href="#top" class="to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+	    </div>
+	</footer>
+</body>
+</html>
